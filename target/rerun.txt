@@ -1,0 +1,11 @@
+file:src/main/resources/features/F10_AddToComparelist.feature:3
+file:src/main/resources/features/F01_Login.feature:4
+file:src/main/resources/features/F05_ProductHover.feature:3
+file:src/main/resources/features/F08_AddToCart.feature:3
+file:src/main/resources/features/F02_ForgetPassword.feature:4
+file:src/main/resources/features/F03_Search.feature:4
+file:src/main/resources/features/F00_Registeration.feature:4
+file:src/main/resources/features/F11_SuccessfulOrder.feature:3
+file:src/main/resources/features/F07_SelectTag.feature:3
+file:src/main/resources/features/F09_AddToWishlist.feature:3
+file:src/main/resources/features/F06_FilterColor.feature:3

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="11" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="53.491">
+    <testcase classname="F00_Registration |  User could register with valid data" name="User Successful Registration" time="5.012">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User go to registration page..........................................undefined
+When User enter the user data...............................................skipped
+And User click register button..............................................skipped
+Then User Register Successfully.............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F01_Login | Users could use login functionality to open their accounts with valid credentials" name="user should be able to login with valid username and password" time="3.789">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User go to login page.................................................passed
+When User enter valid user data with valid@example.com and P@ssw0rd.........undefined
+And User click login button.................................................skipped
+Then User login successfully................................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F02_ForgetPassword | User could reset his/her password successfully" name="user should be able to reset password successfully" time="3.123">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User goes to login page...............................................undefined
+When User click on forget password button...................................skipped
+And User enter valid user email.............................................skipped
+And User click recover button...............................................skipped
+Then User recover password successfully.....................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F03_Search | Logged User could search for any product" name="user could search for product using fullname" time="4.572">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Logged-in user........................................................passed
+When User clicks on search field............................................undefined
+And User search with name of product........................................skipped
+Then User could find relative results.......................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F04_ChangeCurrency |  User could change currency successfully" name="User change currency successfully" time="4.45">
+        <system-out><![CDATA[Given Logged user...........................................................passed
+When User Change currency from currency menu................................passed
+Then Currency changes successfully..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="F05_ProductHover |  User could choose different categories" name="User could choose different categories" time="5.045">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Log user..............................................................passed
+When User Choose different category.........................................undefined
+Then Category page open successfully........................................skipped
+And Sub-category page open successfully.....................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F06_FilterColor |  User could filter product with color" name="User could filter shoes by colors" time="4.393">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The Logged user.......................................................passed
+When User Choose shoes category.............................................undefined
+And User Choose blue color shoes............................................skipped
+Then Required product color appears successfully............................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F07_SelectTag |  Logged user could select different tags" name="User could select different tags" time="3.849">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User login............................................................passed
+When User Choose any category...............................................undefined
+And User choose awesome tag.................................................skipped
+Then Related products appear successfully...................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F08_AddToCart |  Logged user could add different products to Shopping cart" name="User add different products to cart" time="3.891">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User log..............................................................passed
+When User click on product tabs.............................................undefined
+And User click on required product..........................................skipped
+And User click on add to cart...............................................skipped
+Then Related products added successfully....................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F09_AddToWishList |  Logged user could add different products to Wishlist" name="User add different products to Wishlist" time="3.819">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User logs.............................................................passed
+When User clicks on product tabs............................................undefined
+And User clicks on required product.........................................skipped
+And User click on add to wishlist...........................................skipped
+Then Related product added successfully.....................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F10_AddToCompareList |  Logged user could add different products to compare list" name="User add different products to compare list" time="4.259">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given logged user...........................................................passed
+When user click on product tabs.............................................undefined
+And user click on required product..........................................skipped
+And User click on add to compare list.......................................skipped
+Then related products added successfully....................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="F11_SuccessfulOrder |  Create successful Order" name="User add different products to cart" time="6.889">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user login............................................................passed
+When User add product to cart...............................................passed
+And User click on checkout..................................................undefined
+And User completes his data.................................................skipped
+And User follow all steps...................................................skipped
+Then Order completed successfully...........................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
